@@ -1,0 +1,21 @@
+[2023-07-31 06:27:17.883 PM] error: 	uncaughtException: Can't determine Firebase Database URL.
+Error: Can't determine Firebase Database URL.
+    at DatabaseService.ensureUrl (/home/enrichvideo/work-dir/FormWidget-API/node_modules/firebase-admin/lib/database/database.js:127:15)
+    at DatabaseService.getDatabase (/home/enrichvideo/work-dir/FormWidget-API/node_modules/firebase-admin/lib/database/database.js:67:28)
+    at getDatabaseInstance (/home/enrichvideo/work-dir/FormWidget-API/node_modules/firebase-admin/lib/database/index.js:102:22)
+    at getDatabaseWithUrl (/home/enrichvideo/work-dir/FormWidget-API/node_modules/firebase-admin/lib/database/index.js:92:12)
+    at result.database (/home/enrichvideo/work-dir/FormWidget-API/node_modules/firebase-admin/lib/app/firebase-namespace.js:295:16)
+    at FirebaseNamespace.fn (/home/enrichvideo/work-dir/FormWidget-API/node_modules/firebase-admin/lib/app/firebase-namespace.js:103:40)
+    at file:///home/enrichvideo/work-dir/FormWidget-API/src/models/db.js:26:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+[2023-07-31 06:29:55.002 PM] info: 	HTTP only server started on port 9980
+[2023-07-31 06:30:28.513 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-31 06:30:29.031 PM] info: 	::ffff:127.0.0.1 - - [31/Jul/2023:13:00:29 +0000] "PUT /form HTTP/1.1" 200 61 "-" "axios/0.27.2"

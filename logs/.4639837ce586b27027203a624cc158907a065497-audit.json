@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 5
+    },
+    "auditLog": "/home/enrichvideo/work-dir/FormWidget-API/logs/.4639837ce586b27027203a624cc158907a065497-audit.json",
+    "files": [
+        {
+            "date": 1690725620586,
+            "name": "/home/enrichvideo/work-dir/FormWidget-API/logs/combined.log.2023-07-30-19",
+            "hash": "a9531efde619b821fe08425484a4fded0b37dd561e2e20eb00791893cce76615"
+        },
+        {
+            "date": 1690727498841,
+            "name": "/home/enrichvideo/work-dir/FormWidget-API/logs/combined.log.2023-07-30-20",
+            "hash": "c20ae4f7f77efa55ffe064bb0e117396d9958240d58d09e552c4c87964a4f52c"
+        },
+        {
+            "date": 1690787202140,
+            "name": "/home/enrichvideo/work-dir/FormWidget-API/logs/combined.log.2023-07-31-12",
+            "hash": "81be955c6b78bb82f4c9f74a1655967a4619d9bbc0298390435f3d57c7f8a2b4"
+        },
+        {
+            "date": 1690808237808,
+            "name": "/home/enrichvideo/work-dir/FormWidget-API/logs/combined.log.2023-07-31-18",
+            "hash": "37cca76405452554901514afd5013b39c39ffb65828f867cadb08e6b1294c24e"
+        },
+        {
+            "date": 1690815154306,
+            "name": "/home/enrichvideo/work-dir/FormWidget-API/logs/combined.log.2023-07-31-20",
+            "hash": "f02259f69d3bf8653f905617784faa9b2047f32b4da816bea176f239809ed51d"
+        }
+    ],
+    "hashType": "sha256"
+}

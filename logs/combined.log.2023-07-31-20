@@ -1,0 +1,61 @@
+[2023-07-31 08:22:34.406 PM] info: 	HTTP only server started on port 9980
+[2023-07-31 08:36:58.832 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"name":"Harish Kumar","email":"harishkumar329@gmail.com","subject":"This is test Contact Us","message":"This is test contact us message","phone":"8553937409","company":"HappyFox","type":"contactus","formId":"OyKwKiIF","tenantId":"1","id":"OyKwKiIF1"}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-31 08:36:58.839 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"name":"Harish Kumar","email":"harishkumar329@gmail.com","subject":"This is test Contact Us","message":"This is test contact us message","phone":"8553937409","company":"HappyFox","type":"contactus","formId":"OyKwKiIF","tenantId":"1","id":"OyKwKiIF1"}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-31 08:36:59.262 PM] info: 	::ffff:127.0.0.1 - - [31/Jul/2023:15:06:59 +0000] "PUT /form HTTP/1.1" 200 61 "-" "axios/0.27.2"
+[2023-07-31 08:36:59.266 PM] info: 	::ffff:127.0.0.1 - - [31/Jul/2023:15:06:59 +0000] "PUT /form HTTP/1.1" 200 61 "-" "axios/0.27.2"
+[2023-07-31 08:37:57.722 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"name":"Ragavi","email":"sample@gmail.com","feedback":"This form looks cool","company":"HappyFox","phone":"","type":"feedback","formId":"eY94xOty","tenantId":"1","id":"eY94xOty1"}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-31 08:37:57.726 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"name":"Ragavi","email":"sample@gmail.com","feedback":"This form looks cool","company":"HappyFox","phone":"","type":"feedback","formId":"eY94xOty","tenantId":"1","id":"eY94xOty1"}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-31 08:37:57.771 PM] info: 	::ffff:127.0.0.1 - - [31/Jul/2023:15:07:57 +0000] "PUT /form HTTP/1.1" 200 61 "-" "axios/0.27.2"
+[2023-07-31 08:37:57.774 PM] info: 	::ffff:127.0.0.1 - - [31/Jul/2023:15:07:57 +0000] "PUT /form HTTP/1.1" 200 61 "-" "axios/0.27.2"
+[2023-07-31 08:40:06.776 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"name":"Harish Kumar","email":"sample@gmail.com","company":"HappyFox","product":"HelpDesk","requirements":"Would like to understand in detail","phone":"","type":"lead","formId":"Dp2QwtUY","tenantId":"1","id":"Dp2QwtUY1"}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-31 08:40:06.778 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"name":"Harish Kumar","email":"sample@gmail.com","company":"HappyFox","product":"HelpDesk","requirements":"Would like to understand in detail","phone":"","type":"lead","formId":"Dp2QwtUY","tenantId":"1","id":"Dp2QwtUY1"}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-31 08:40:06.844 PM] info: 	::ffff:127.0.0.1 - - [31/Jul/2023:15:10:06 +0000] "PUT /form HTTP/1.1" 200 61 "-" "axios/0.27.2"
+[2023-07-31 08:40:06.848 PM] info: 	::ffff:127.0.0.1 - - [31/Jul/2023:15:10:06 +0000] "PUT /form HTTP/1.1" 200 61 "-" "axios/0.27.2"

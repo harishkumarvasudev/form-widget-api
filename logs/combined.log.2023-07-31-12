@@ -1,0 +1,105 @@
+[2023-07-31 12:36:42.139 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"name":"Harish","email":"harishkumar329@gmail.com","subject":"Testing the subject","message":"Full body message","phone":"","company":"","type":"contactus","formId":1,"tenantId":1}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-31 12:36:42.146 PM] error: 	error happened in validation part controllerName saveForm  error- {"_original":{"name":"Harish","email":"harishkumar329@gmail.com","subject":"Testing the subject","message":"Full body message","phone":"","company":"","type":"contactus","formId":1,"tenantId":1},"details":[{"message":"\"id\" is required","path":["id"],"type":"any.required","context":{"label":"id","key":"id"}}]}  error = ValidationError: "id" is required
+[2023-07-31 12:36:42.152 PM] info: 	::ffff:127.0.0.1 - - [31/Jul/2023:07:06:42 +0000] "PUT /form HTTP/1.1" 400 59 "-" "axios/0.27.2"
+[2023-07-31 12:36:42.154 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"name":"Harish","email":"harishkumar329@gmail.com","subject":"Testing the subject","message":"Full body message","phone":"","company":"","type":"contactus","formId":1,"tenantId":1}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-31 12:36:42.155 PM] error: 	error happened in validation part controllerName null  error- {"_original":{"name":"Harish","email":"harishkumar329@gmail.com","subject":"Testing the subject","message":"Full body message","phone":"","company":"","type":"contactus","formId":1,"tenantId":1},"details":[{"message":"\"id\" is required","path":["id"],"type":"any.required","context":{"label":"id","key":"id"}}]}  error = ValidationError: "id" is required
+[2023-07-31 12:36:42.156 PM] info: 	::ffff:127.0.0.1 - - [31/Jul/2023:07:06:42 +0000] "PUT /form HTTP/1.1" 400 59 "-" "axios/0.27.2"
+[2023-07-31 12:38:30.226 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"name":"Harish Kumar V","email":"harishkumar329@gmail.com","subject":"Test Subject","message":"Test full message","phone":"","company":"","type":"contactus","formId":1,"tenantId":1,"id":"11"}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-31 12:38:30.229 PM] error: 	error happened in validation part controllerName null  error- {"_original":{"name":"Harish Kumar V","email":"harishkumar329@gmail.com","subject":"Test Subject","message":"Test full message","phone":"","company":"","type":"contactus","formId":1,"tenantId":1,"id":"11"},"details":[{"message":"\"name\" is not allowed","path":["name"],"type":"object.unknown","context":{"child":"name","label":"name","value":"Harish Kumar V","key":"name"}}]}  error = ValidationError: "name" is not allowed
+[2023-07-31 12:38:30.231 PM] info: 	::ffff:127.0.0.1 - - [31/Jul/2023:07:08:30 +0000] "PUT /form HTTP/1.1" 400 64 "-" "axios/0.27.2"
+[2023-07-31 12:38:30.232 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"name":"Harish Kumar V","email":"harishkumar329@gmail.com","subject":"Test Subject","message":"Test full message","phone":"","company":"","type":"contactus","formId":1,"tenantId":1,"id":"11"}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-31 12:38:30.234 PM] error: 	error happened in validation part controllerName null  error- {"_original":{"name":"Harish Kumar V","email":"harishkumar329@gmail.com","subject":"Test Subject","message":"Test full message","phone":"","company":"","type":"contactus","formId":1,"tenantId":1,"id":"11"},"details":[{"message":"\"name\" is not allowed","path":["name"],"type":"object.unknown","context":{"child":"name","label":"name","value":"Harish Kumar V","key":"name"}}]}  error = ValidationError: "name" is not allowed
+[2023-07-31 12:38:30.235 PM] info: 	::ffff:127.0.0.1 - - [31/Jul/2023:07:08:30 +0000] "PUT /form HTTP/1.1" 400 64 "-" "axios/0.27.2"
+[2023-07-31 12:40:11.281 PM] info: 	http only started server on port 9980
+[2023-07-31 12:40:19.971 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"name":"Harish Kumar V","email":"harishkumar329@gmail.com","subject":"Test Subject","message":"Test full message","phone":"","company":"","type":"contactus","formId":1,"tenantId":1,"id":"11"}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-31 12:40:19.979 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"name":"Harish Kumar V","email":"harishkumar329@gmail.com","subject":"Test Subject","message":"Test full message","phone":"","company":"","type":"contactus","formId":1,"tenantId":1,"id":"11"}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-31 12:40:20.531 PM] info: 	::ffff:127.0.0.1 - - [31/Jul/2023:07:10:20 +0000] "PUT /form HTTP/1.1" 200 61 "-" "axios/0.27.2"
+[2023-07-31 12:40:20.536 PM] info: 	::ffff:127.0.0.1 - - [31/Jul/2023:07:10:20 +0000] "PUT /form HTTP/1.1" 200 61 "-" "axios/0.27.2"
+[2023-07-31 12:49:49.466 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"name":"alksdfj","email":"aldkfj@gma","subject":"aldskfj","message":"aslkdfj","phone":"","company":"","type":"contactus","formId":1,"tenantId":1,"id":"11"}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-31 12:49:49.471 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"name":"alksdfj","email":"aldkfj@gma","subject":"aldskfj","message":"aslkdfj","phone":"","company":"","type":"contactus","formId":1,"tenantId":1,"id":"11"}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-31 12:49:49.518 PM] info: 	::ffff:127.0.0.1 - - [31/Jul/2023:07:19:49 +0000] "PUT /form HTTP/1.1" 200 61 "-" "axios/0.27.2"
+[2023-07-31 12:49:49.520 PM] info: 	::ffff:127.0.0.1 - - [31/Jul/2023:07:19:49 +0000] "PUT /form HTTP/1.1" 200 61 "-" "axios/0.27.2"
+[2023-07-31 12:55:36.984 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"name":"test","email":"test@test","subject":"test","message":"test test","phone":"","company":"","type":"contactus","formId":1,"tenantId":1,"id":"11"}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-31 12:55:36.986 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"name":"test","email":"test@test","subject":"test","message":"test test","phone":"","company":"","type":"contactus","formId":1,"tenantId":1,"id":"11"}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-31 12:55:37.032 PM] info: 	::ffff:127.0.0.1 - - [31/Jul/2023:07:25:37 +0000] "PUT /form HTTP/1.1" 200 61 "-" "axios/0.27.2"
+[2023-07-31 12:55:37.035 PM] info: 	::ffff:127.0.0.1 - - [31/Jul/2023:07:25:37 +0000] "PUT /form HTTP/1.1" 200 61 "-" "axios/0.27.2"

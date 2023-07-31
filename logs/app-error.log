@@ -1,0 +1,159 @@
+[2023-07-30 07:30:20.648 PM] error: 	uncaughtException: getWidgetConfig is not defined
+ReferenceError: getWidgetConfig is not defined
+    at file:///home/enrichvideo/work-dir/FormWidget-API/src/models/form.model.js:12:32
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+[2023-07-30 07:30:46.552 PM] error: 	uncaughtException: saveForm is not defined
+ReferenceError: saveForm is not defined
+    at file:///home/enrichvideo/work-dir/FormWidget-API/src/models/form.model.js:12:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+[2023-07-30 07:31:40.902 PM] error: 	uncaughtException: listen EADDRINUSE: address already in use :::9990
+Error: listen EADDRINUSE: address already in use :::9990
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (/home/enrichvideo/work-dir/FormWidget-API/node_modules/express/lib/application.js:635:24)
+    at startServer (file:///home/enrichvideo/work-dir/FormWidget-API/src/server.js:71:18)
+    at file:///home/enrichvideo/work-dir/FormWidget-API/src/server.js:95:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+[2023-07-30 07:31:40.903 PM] crit: 	There is uncaught exception in the application
+[2023-07-30 07:31:43.756 PM] error: 	uncaughtException: listen EADDRINUSE: address already in use :::9990
+Error: listen EADDRINUSE: address already in use :::9990
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (/home/enrichvideo/work-dir/FormWidget-API/node_modules/express/lib/application.js:635:24)
+    at startServer (file:///home/enrichvideo/work-dir/FormWidget-API/src/server.js:71:18)
+    at file:///home/enrichvideo/work-dir/FormWidget-API/src/server.js:95:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+[2023-07-30 07:31:43.758 PM] crit: 	There is uncaught exception in the application
+[2023-07-30 07:36:51.592 PM] crit: 	unhandled route or controller GET http://.localhost/
+[2023-07-30 07:37:29.488 PM] crit: 	unhandled route or controller GET http://.localhost/
+[2023-07-30 07:37:52.856 PM] crit: 	unhandled route or controller PUT http://.localhost/
+[2023-07-30 07:38:26.729 PM] error: 	error happened in validation part controllerName saveForm  error- {"_original":{"headers":{"authorization":"Bearear eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJGb3JtIFdpZGdldCBBcHAiLCJleHAiOjE3MjIzNDQ1NDEsImlhdCI6MTY5MDcyMjE0MX0.-wZ4cYe8WKFzV4PEVf8Ga4pvwacVlUCmNGNM3HUjbSc","timeout":15000,"localeip":"dummy ip","localeuseragent":"PostmanRuntime/7.32.3"}},"details":[{"message":"\"id\" is required","path":["id"],"type":"any.required","context":{"label":"id","key":"id"}}]}  error = ValidationError: "id" is required
+[2023-07-30 07:44:30.064 PM] error: 	error happened in validation part controllerName saveForm  error- {"_original":{"headers":{"authorization":"Bearear eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJGb3JtIFdpZGdldCBBcHAiLCJleHAiOjE3MjIzNDQ1NDEsImlhdCI6MTY5MDcyMjE0MX0.-wZ4cYe8WKFzV4PEVf8Ga4pvwacVlUCmNGNM3HUjbSc","timeout":15000,"localeip":"dummy ip","localeuseragent":"PostmanRuntime/7.32.3"}},"details":[{"message":"\"id\" is required","path":["id"],"type":"any.required","context":{"label":"id","key":"id"}}]}  error = ValidationError: "id" is required
+[2023-07-30 07:45:02.701 PM] error: 	error happened in validation part controllerName null  error- {"_original":{"headers":{"authorization":"Bearear eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJGb3JtIFdpZGdldCBBcHAiLCJleHAiOjE3MjIzNDQ1NDEsImlhdCI6MTY5MDcyMjE0MX0.-wZ4cYe8WKFzV4PEVf8Ga4pvwacVlUCmNGNM3HUjbSc","timeout":15000,"localeip":"dummy ip","localeuseragent":"PostmanRuntime/7.32.3"}},"details":[{"message":"\"id\" is required","path":["id"],"type":"any.required","context":{"label":"id","key":"id"}}]}  error = ValidationError: "id" is required
+[2023-07-30 07:46:16.595 PM] error: 	error happened in validation part controllerName saveForm  error- {"_original":{"headers":{"authorization":"Bearear eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJGb3JtIFdpZGdldCBBcHAiLCJleHAiOjE3MjIzNDQ1NDEsImlhdCI6MTY5MDcyMjE0MX0.-wZ4cYe8WKFzV4PEVf8Ga4pvwacVlUCmNGNM3HUjbSc","timeout":15000,"localeip":"dummy ip","localeuseragent":"PostmanRuntime/7.32.3"}},"details":[{"message":"\"id\" is required","path":["id"],"type":"any.required","context":{"label":"id","key":"id"}}]}  error = ValidationError: "id" is required
+[2023-07-30 07:47:15.802 PM] error: 	error happened in validation part controllerName null  error- {"_original":{"headers":{"authorization":"Bearear eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJGb3JtIFdpZGdldCBBcHAiLCJleHAiOjE3MjIzNDQ1NDEsImlhdCI6MTY5MDcyMjE0MX0.-wZ4cYe8WKFzV4PEVf8Ga4pvwacVlUCmNGNM3HUjbSc","timeout":15000,"localeip":"dummy ip","localeuseragent":"PostmanRuntime/7.32.3"}},"details":[{"message":"\"id\" is required","path":["id"],"type":"any.required","context":{"label":"id","key":"id"}}]}  error = ValidationError: "id" is required
+[2023-07-30 08:09:40.167 PM] error: 	error happened while adding the form TypeError: snapShot.val is not a function
+[2023-07-30 08:10:14.239 PM] error: 	error happened while getting widget TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Timeout'
+    |     property '_idlePrev' -> object with constructor 'TimersList'
+    --- property '_idleNext' closes the circle
+[2023-07-30 08:10:38.427 PM] error: 	error happened while getting widget TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:11:38.839 PM] error: 	error happened while getting widget TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Timeout'
+    |     property '_idlePrev' -> object with constructor 'TimersList'
+    --- property '_idleNext' closes the circle
+[2023-07-30 08:12:15.139 PM] error: 	error happened while getting widget TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Timeout'
+    |     property '_idlePrev' -> object with constructor 'TimersList'
+    --- property '_idleNext' closes the circle
+[2023-07-30 08:12:40.487 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Timeout'
+    |     property '_idlePrev' -> object with constructor 'TimersList'
+    --- property '_idleNext' closes the circle
+[2023-07-30 08:13:06.565 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Timeout'
+    |     property '_idlePrev' -> object with constructor 'TimersList'
+    --- property '_idleNext' closes the circle
+[2023-07-30 08:13:54.904 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Timeout'
+    |     property '_idlePrev' -> object with constructor 'TimersList'
+    --- property '_idleNext' closes the circle
+[2023-07-30 08:14:18.464 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:15:03.904 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:15:52.619 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:18:09.282 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:18:46.645 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:19:58.096 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:20:37.145 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:20:58.336 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:21:22.170 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:22:25.884 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:29:11.554 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-31 12:36:42.146 PM] error: 	error happened in validation part controllerName saveForm  error- {"_original":{"name":"Harish","email":"harishkumar329@gmail.com","subject":"Testing the subject","message":"Full body message","phone":"","company":"","type":"contactus","formId":1,"tenantId":1},"details":[{"message":"\"id\" is required","path":["id"],"type":"any.required","context":{"label":"id","key":"id"}}]}  error = ValidationError: "id" is required
+[2023-07-31 12:36:42.155 PM] error: 	error happened in validation part controllerName null  error- {"_original":{"name":"Harish","email":"harishkumar329@gmail.com","subject":"Testing the subject","message":"Full body message","phone":"","company":"","type":"contactus","formId":1,"tenantId":1},"details":[{"message":"\"id\" is required","path":["id"],"type":"any.required","context":{"label":"id","key":"id"}}]}  error = ValidationError: "id" is required
+[2023-07-31 12:38:30.229 PM] error: 	error happened in validation part controllerName null  error- {"_original":{"name":"Harish Kumar V","email":"harishkumar329@gmail.com","subject":"Test Subject","message":"Test full message","phone":"","company":"","type":"contactus","formId":1,"tenantId":1,"id":"11"},"details":[{"message":"\"name\" is not allowed","path":["name"],"type":"object.unknown","context":{"child":"name","label":"name","value":"Harish Kumar V","key":"name"}}]}  error = ValidationError: "name" is not allowed
+[2023-07-31 12:38:30.234 PM] error: 	error happened in validation part controllerName null  error- {"_original":{"name":"Harish Kumar V","email":"harishkumar329@gmail.com","subject":"Test Subject","message":"Test full message","phone":"","company":"","type":"contactus","formId":1,"tenantId":1,"id":"11"},"details":[{"message":"\"name\" is not allowed","path":["name"],"type":"object.unknown","context":{"child":"name","label":"name","value":"Harish Kumar V","key":"name"}}]}  error = ValidationError: "name" is not allowed
+[2023-07-31 06:27:17.883 PM] error: 	uncaughtException: Can't determine Firebase Database URL.
+Error: Can't determine Firebase Database URL.
+    at DatabaseService.ensureUrl (/home/enrichvideo/work-dir/FormWidget-API/node_modules/firebase-admin/lib/database/database.js:127:15)
+    at DatabaseService.getDatabase (/home/enrichvideo/work-dir/FormWidget-API/node_modules/firebase-admin/lib/database/database.js:67:28)
+    at getDatabaseInstance (/home/enrichvideo/work-dir/FormWidget-API/node_modules/firebase-admin/lib/database/index.js:102:22)
+    at getDatabaseWithUrl (/home/enrichvideo/work-dir/FormWidget-API/node_modules/firebase-admin/lib/database/index.js:92:12)
+    at result.database (/home/enrichvideo/work-dir/FormWidget-API/node_modules/firebase-admin/lib/app/firebase-namespace.js:295:16)
+    at FirebaseNamespace.fn (/home/enrichvideo/work-dir/FormWidget-API/node_modules/firebase-admin/lib/app/firebase-namespace.js:103:40)
+    at file:///home/enrichvideo/work-dir/FormWidget-API/src/models/db.js:26:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)

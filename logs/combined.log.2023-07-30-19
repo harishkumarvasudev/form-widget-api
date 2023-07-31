@@ -1,0 +1,123 @@
+[2023-07-30 07:30:20.648 PM] error: 	uncaughtException: getWidgetConfig is not defined
+ReferenceError: getWidgetConfig is not defined
+    at file:///home/enrichvideo/work-dir/FormWidget-API/src/models/form.model.js:12:32
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+[2023-07-30 07:30:46.552 PM] error: 	uncaughtException: saveForm is not defined
+ReferenceError: saveForm is not defined
+    at file:///home/enrichvideo/work-dir/FormWidget-API/src/models/form.model.js:12:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+[2023-07-30 07:31:40.902 PM] error: 	uncaughtException: listen EADDRINUSE: address already in use :::9990
+Error: listen EADDRINUSE: address already in use :::9990
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (/home/enrichvideo/work-dir/FormWidget-API/node_modules/express/lib/application.js:635:24)
+    at startServer (file:///home/enrichvideo/work-dir/FormWidget-API/src/server.js:71:18)
+    at file:///home/enrichvideo/work-dir/FormWidget-API/src/server.js:95:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+[2023-07-30 07:31:40.903 PM] crit: 	There is uncaught exception in the application
+[2023-07-30 07:31:43.756 PM] error: 	uncaughtException: listen EADDRINUSE: address already in use :::9990
+Error: listen EADDRINUSE: address already in use :::9990
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (/home/enrichvideo/work-dir/FormWidget-API/node_modules/express/lib/application.js:635:24)
+    at startServer (file:///home/enrichvideo/work-dir/FormWidget-API/src/server.js:71:18)
+    at file:///home/enrichvideo/work-dir/FormWidget-API/src/server.js:95:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+[2023-07-30 07:31:43.758 PM] crit: 	There is uncaught exception in the application
+[2023-07-30 07:32:29.892 PM] info: 	http only started server on port 9980
+[2023-07-30 07:36:51.591 PM] debug: 	 custom HTTP logger - 
+    - req  =  GET http:// localhost/
+    - host = localhost:9980
+    - url = / 
+    - params = {} 
+    - query = {} 
+    - body = {}
+    - user agent =  axios/0.27.2
+    - content-type = undefined
+[2023-07-30 07:36:51.592 PM] crit: 	unhandled route or controller GET http://.localhost/
+[2023-07-30 07:36:51.597 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:06:51 +0000] "GET / HTTP/1.1" 404 56 "-" "axios/0.27.2"
+[2023-07-30 07:37:29.488 PM] debug: 	 custom HTTP logger - 
+    - req  =  GET http:// localhost/
+    - host = localhost:9980
+    - url = / 
+    - params = {} 
+    - query = {} 
+    - body = {}
+    - user agent =  axios/0.27.2
+    - content-type = undefined
+[2023-07-30 07:37:29.488 PM] crit: 	unhandled route or controller GET http://.localhost/
+[2023-07-30 07:37:29.489 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:07:29 +0000] "GET / HTTP/1.1" 404 56 "-" "axios/0.27.2"
+[2023-07-30 07:37:52.855 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/
+    - host = localhost:9980
+    - url = / 
+    - params = {} 
+    - query = {} 
+    - body = {"headers":{"authorization":"Bearear eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJGb3JtIFdpZGdldCBBcHAiLCJleHAiOjE3MjIzNDQ1NDEsImlhdCI6MTY5MDcyMjE0MX0.-wZ4cYe8WKFzV4PEVf8Ga4pvwacVlUCmNGNM3HUjbSc","timeout":15000,"localeip":"dummy ip","localeuseragent":"PostmanRuntime/7.32.3"}}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 07:37:52.856 PM] crit: 	unhandled route or controller PUT http://.localhost/
+[2023-07-30 07:37:52.857 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:07:52 +0000] "PUT / HTTP/1.1" 404 56 "-" "axios/0.27.2"
+[2023-07-30 07:38:26.725 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"headers":{"authorization":"Bearear eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJGb3JtIFdpZGdldCBBcHAiLCJleHAiOjE3MjIzNDQ1NDEsImlhdCI6MTY5MDcyMjE0MX0.-wZ4cYe8WKFzV4PEVf8Ga4pvwacVlUCmNGNM3HUjbSc","timeout":15000,"localeip":"dummy ip","localeuseragent":"PostmanRuntime/7.32.3"}}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 07:38:26.729 PM] error: 	error happened in validation part controllerName saveForm  error- {"_original":{"headers":{"authorization":"Bearear eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJGb3JtIFdpZGdldCBBcHAiLCJleHAiOjE3MjIzNDQ1NDEsImlhdCI6MTY5MDcyMjE0MX0.-wZ4cYe8WKFzV4PEVf8Ga4pvwacVlUCmNGNM3HUjbSc","timeout":15000,"localeip":"dummy ip","localeuseragent":"PostmanRuntime/7.32.3"}},"details":[{"message":"\"id\" is required","path":["id"],"type":"any.required","context":{"label":"id","key":"id"}}]}  error = ValidationError: "id" is required
+[2023-07-30 07:38:26.729 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:08:26 +0000] "PUT /form HTTP/1.1" 400 59 "-" "axios/0.27.2"
+[2023-07-30 07:39:36.872 PM] info: 	http only started server on port 9980
+[2023-07-30 07:39:51.719 PM] info: 	http only started server on port 9980
+[2023-07-30 07:40:03.740 PM] info: 	http only started server on port 9980
+[2023-07-30 07:44:02.853 PM] info: 	http only started server on port 9980
+[2023-07-30 07:44:30.060 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"headers":{"authorization":"Bearear eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJGb3JtIFdpZGdldCBBcHAiLCJleHAiOjE3MjIzNDQ1NDEsImlhdCI6MTY5MDcyMjE0MX0.-wZ4cYe8WKFzV4PEVf8Ga4pvwacVlUCmNGNM3HUjbSc","timeout":15000,"localeip":"dummy ip","localeuseragent":"PostmanRuntime/7.32.3"}}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 07:44:30.064 PM] error: 	error happened in validation part controllerName saveForm  error- {"_original":{"headers":{"authorization":"Bearear eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJGb3JtIFdpZGdldCBBcHAiLCJleHAiOjE3MjIzNDQ1NDEsImlhdCI6MTY5MDcyMjE0MX0.-wZ4cYe8WKFzV4PEVf8Ga4pvwacVlUCmNGNM3HUjbSc","timeout":15000,"localeip":"dummy ip","localeuseragent":"PostmanRuntime/7.32.3"}},"details":[{"message":"\"id\" is required","path":["id"],"type":"any.required","context":{"label":"id","key":"id"}}]}  error = ValidationError: "id" is required
+[2023-07-30 07:44:30.068 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:14:30 +0000] "PUT /form HTTP/1.1" 400 59 "-" "axios/0.27.2"
+[2023-07-30 07:45:02.700 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"headers":{"authorization":"Bearear eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJGb3JtIFdpZGdldCBBcHAiLCJleHAiOjE3MjIzNDQ1NDEsImlhdCI6MTY5MDcyMjE0MX0.-wZ4cYe8WKFzV4PEVf8Ga4pvwacVlUCmNGNM3HUjbSc","timeout":15000,"localeip":"dummy ip","localeuseragent":"PostmanRuntime/7.32.3"}}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 07:45:02.701 PM] error: 	error happened in validation part controllerName null  error- {"_original":{"headers":{"authorization":"Bearear eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJGb3JtIFdpZGdldCBBcHAiLCJleHAiOjE3MjIzNDQ1NDEsImlhdCI6MTY5MDcyMjE0MX0.-wZ4cYe8WKFzV4PEVf8Ga4pvwacVlUCmNGNM3HUjbSc","timeout":15000,"localeip":"dummy ip","localeuseragent":"PostmanRuntime/7.32.3"}},"details":[{"message":"\"id\" is required","path":["id"],"type":"any.required","context":{"label":"id","key":"id"}}]}  error = ValidationError: "id" is required
+[2023-07-30 07:45:02.702 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:15:02 +0000] "PUT /form HTTP/1.1" 400 59 "-" "axios/0.27.2"
+[2023-07-30 07:45:41.746 PM] info: 	http only started server on port 9980
+[2023-07-30 07:46:14.056 PM] info: 	http only started server on port 9980
+[2023-07-30 07:46:16.591 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"headers":{"authorization":"Bearear eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJGb3JtIFdpZGdldCBBcHAiLCJleHAiOjE3MjIzNDQ1NDEsImlhdCI6MTY5MDcyMjE0MX0.-wZ4cYe8WKFzV4PEVf8Ga4pvwacVlUCmNGNM3HUjbSc","timeout":15000,"localeip":"dummy ip","localeuseragent":"PostmanRuntime/7.32.3"}}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 07:46:16.595 PM] error: 	error happened in validation part controllerName saveForm  error- {"_original":{"headers":{"authorization":"Bearear eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJGb3JtIFdpZGdldCBBcHAiLCJleHAiOjE3MjIzNDQ1NDEsImlhdCI6MTY5MDcyMjE0MX0.-wZ4cYe8WKFzV4PEVf8Ga4pvwacVlUCmNGNM3HUjbSc","timeout":15000,"localeip":"dummy ip","localeuseragent":"PostmanRuntime/7.32.3"}},"details":[{"message":"\"id\" is required","path":["id"],"type":"any.required","context":{"label":"id","key":"id"}}]}  error = ValidationError: "id" is required
+[2023-07-30 07:46:16.600 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:16:16 +0000] "PUT /form HTTP/1.1" 400 59 "-" "axios/0.27.2"
+[2023-07-30 07:47:15.800 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"headers":{"authorization":"Bearear eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJGb3JtIFdpZGdldCBBcHAiLCJleHAiOjE3MjIzNDQ1NDEsImlhdCI6MTY5MDcyMjE0MX0.-wZ4cYe8WKFzV4PEVf8Ga4pvwacVlUCmNGNM3HUjbSc","timeout":15000,"localeip":"dummy ip","localeuseragent":"PostmanRuntime/7.32.3"}}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 07:47:15.802 PM] error: 	error happened in validation part controllerName null  error- {"_original":{"headers":{"authorization":"Bearear eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJGb3JtIFdpZGdldCBBcHAiLCJleHAiOjE3MjIzNDQ1NDEsImlhdCI6MTY5MDcyMjE0MX0.-wZ4cYe8WKFzV4PEVf8Ga4pvwacVlUCmNGNM3HUjbSc","timeout":15000,"localeip":"dummy ip","localeuseragent":"PostmanRuntime/7.32.3"}},"details":[{"message":"\"id\" is required","path":["id"],"type":"any.required","context":{"label":"id","key":"id"}}]}  error = ValidationError: "id" is required
+[2023-07-30 07:47:15.803 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:17:15 +0000] "PUT /form HTTP/1.1" 400 59 "-" "axios/0.27.2"

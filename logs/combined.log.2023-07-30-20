@@ -1,0 +1,445 @@
+[2023-07-30 08:01:38.840 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:01:38.843 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:31:38 +0000] "PUT /form HTTP/1.1" 500 57 "-" "axios/0.27.2"
+[2023-07-30 08:03:22.231 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:03:22.233 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:33:22 +0000] "PUT /form HTTP/1.1" 500 57 "-" "axios/0.27.2"
+[2023-07-30 08:04:00.536 PM] info: 	http only started server on port 9980
+[2023-07-30 08:04:05.228 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:04:05.235 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:34:05 +0000] "PUT /form HTTP/1.1" 500 57 "-" "axios/0.27.2"
+[2023-07-30 08:04:14.794 PM] info: 	http only started server on port 9980
+[2023-07-30 08:04:41.940 PM] info: 	http only started server on port 9980
+[2023-07-30 08:05:17.506 PM] info: 	http only started server on port 9980
+[2023-07-30 08:05:24.427 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:05:24.437 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:35:24 +0000] "PUT /form HTTP/1.1" 500 70 "-" "axios/0.27.2"
+[2023-07-30 08:05:55.367 PM] info: 	http only started server on port 9980
+[2023-07-30 08:07:06.322 PM] info: 	http only started server on port 9980
+[2023-07-30 08:08:07.149 PM] info: 	http only started server on port 9980
+[2023-07-30 08:09:02.599 PM] info: 	http only started server on port 9980
+[2023-07-30 08:09:05.132 PM] info: 	http only started server on port 9980
+[2023-07-30 08:09:14.733 PM] info: 	http only started server on port 9980
+[2023-07-30 08:09:21.348 PM] info: 	http only started server on port 9980
+[2023-07-30 08:09:22.561 PM] info: 	http only started server on port 9980
+[2023-07-30 08:09:40.159 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:09:40.167 PM] error: 	error happened while adding the form TypeError: snapShot.val is not a function
+[2023-07-30 08:09:40.170 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:39:40 +0000] "PUT /form HTTP/1.1" 500 57 "-" "axios/0.27.2"
+[2023-07-30 08:10:10.005 PM] info: 	http only started server on port 9980
+[2023-07-30 08:10:14.232 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:10:14.239 PM] error: 	error happened while getting widget TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Timeout'
+    |     property '_idlePrev' -> object with constructor 'TimersList'
+    --- property '_idleNext' closes the circle
+[2023-07-30 08:10:14.242 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:40:14 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:10:38.426 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:10:38.427 PM] error: 	error happened while getting widget TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:10:38.428 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:40:38 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:11:17.259 PM] info: 	http only started server on port 9980
+[2023-07-30 08:11:36.410 PM] info: 	http only started server on port 9980
+[2023-07-30 08:11:38.833 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:11:38.839 PM] error: 	error happened while getting widget TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Timeout'
+    |     property '_idlePrev' -> object with constructor 'TimersList'
+    --- property '_idleNext' closes the circle
+[2023-07-30 08:11:38.843 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:41:38 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:12:10.369 PM] info: 	http only started server on port 9980
+[2023-07-30 08:12:15.133 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:12:15.139 PM] error: 	error happened while getting widget TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Timeout'
+    |     property '_idlePrev' -> object with constructor 'TimersList'
+    --- property '_idleNext' closes the circle
+[2023-07-30 08:12:15.145 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:42:15 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:12:36.405 PM] info: 	http only started server on port 9980
+[2023-07-30 08:12:40.477 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:12:40.487 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Timeout'
+    |     property '_idlePrev' -> object with constructor 'TimersList'
+    --- property '_idleNext' closes the circle
+[2023-07-30 08:12:40.492 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:42:40 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:13:03.775 PM] info: 	http only started server on port 9980
+[2023-07-30 08:13:06.555 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:13:06.565 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Timeout'
+    |     property '_idlePrev' -> object with constructor 'TimersList'
+    --- property '_idleNext' closes the circle
+[2023-07-30 08:13:06.570 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:43:06 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:13:51.082 PM] info: 	http only started server on port 9980
+[2023-07-30 08:13:54.894 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:13:54.904 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Timeout'
+    |     property '_idlePrev' -> object with constructor 'TimersList'
+    --- property '_idleNext' closes the circle
+[2023-07-30 08:13:54.910 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:43:54 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:14:14.391 PM] info: 	http only started server on port 9980
+[2023-07-30 08:14:18.040 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:14:18.464 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:14:18.470 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:44:18 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:14:56.922 PM] info: 	http only started server on port 9980
+[2023-07-30 08:15:02.383 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:15:03.904 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:15:03.913 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:45:03 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:15:15.822 PM] info: 	http only started server on port 9980
+[2023-07-30 08:15:24.528 PM] info: 	http only started server on port 9980
+[2023-07-30 08:15:26.555 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:15:26.564 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:45:26 +0000] "PUT /form HTTP/1.1" 500 70 "-" "axios/0.27.2"
+[2023-07-30 08:15:36.930 PM] info: 	http only started server on port 9980
+[2023-07-30 08:15:48.278 PM] info: 	http only started server on port 9980
+[2023-07-30 08:15:52.185 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:15:52.619 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:15:52.628 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:45:52 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:18:05.040 PM] info: 	http only started server on port 9980
+[2023-07-30 08:18:08.861 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:18:09.282 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:18:09.290 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:48:09 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:18:41.111 PM] info: 	http only started server on port 9980
+[2023-07-30 08:18:46.144 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:18:46.645 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:18:46.654 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:48:46 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:19:42.345 PM] info: 	http only started server on port 9980
+[2023-07-30 08:19:47.867 PM] info: 	http only started server on port 9980
+[2023-07-30 08:19:57.681 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:19:58.096 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:19:58.104 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:49:58 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:20:31.404 PM] info: 	http only started server on port 9980
+[2023-07-30 08:20:36.665 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:20:37.145 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:20:37.154 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:50:37 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:20:50.802 PM] info: 	http only started server on port 9980
+[2023-07-30 08:20:57.903 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:20:58.336 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:20:58.345 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:50:58 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:21:16.841 PM] info: 	http only started server on port 9980
+[2023-07-30 08:21:21.746 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:21:22.170 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:21:22.181 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:51:22 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:22:02.431 PM] info: 	http only started server on port 9980
+[2023-07-30 08:22:06.447 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:22:06.455 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:52:06 +0000] "PUT /form HTTP/1.1" 500 70 "-" "axios/0.27.2"
+[2023-07-30 08:22:14.597 PM] info: 	http only started server on port 9980
+[2023-07-30 08:22:25.472 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:22:25.884 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:22:25.893 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:52:25 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:23:27.565 PM] info: 	http only started server on port 9980
+[2023-07-30 08:28:44.576 PM] info: 	http only started server on port 9980
+[2023-07-30 08:29:03.967 PM] info: 	http only started server on port 9980
+[2023-07-30 08:29:10.292 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:29:11.554 PM] error: 	error happened while saving the form data TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Database'
+    |     property '_delegate' -> object with constructor 'Database'
+    |     property 'app' -> object with constructor 'FirebaseApp'
+    |     ...
+    |     property 'databases' -> object with constructor 'Object'
+    --- property 'https://form-widget-happyfox-default-rtdb.asia-southeast1.firebasedatabase.app/' closes the circle
+[2023-07-30 08:29:11.560 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:14:59:11 +0000] "PUT /form HTTP/1.1" 500 62 "-" "axios/0.27.2"
+[2023-07-30 08:29:32.788 PM] info: 	http only started server on port 9980
+[2023-07-30 08:30:43.613 PM] info: 	http only started server on port 9980
+[2023-07-30 08:30:46.472 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:30:46.905 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:15:00:46 +0000] "PUT /form HTTP/1.1" 200 61 "-" "axios/0.27.2"
+[2023-07-30 08:33:13.125 PM] info: 	http only started server on port 9980
+[2023-07-30 08:40:27.664 PM] info: 	http only started server on port 9980
+[2023-07-30 08:40:33.172 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:40:34.380 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:15:10:34 +0000] "PUT /form HTTP/1.1" 500 70 "-" "axios/0.27.2"
+[2023-07-30 08:40:50.661 PM] info: 	http only started server on port 9980
+[2023-07-30 08:41:59.859 PM] info: 	http only started server on port 9980
+[2023-07-30 08:42:05.785 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:42:06.795 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:15:12:06 +0000] "PUT /form HTTP/1.1" 500 70 "-" "axios/0.27.2"
+[2023-07-30 08:42:57.116 PM] info: 	http only started server on port 9980
+[2023-07-30 08:43:03.412 PM] debug: 	 custom HTTP logger - 
+    - req  =  PUT http:// localhost/form
+    - host = localhost:9980
+    - url = /form 
+    - params = {} 
+    - query = {} 
+    - body = {"id":999}
+    - user agent =  axios/0.27.2
+    - content-type = application/json
+[2023-07-30 08:43:04.263 PM] info: 	::ffff:127.0.0.1 - - [30/Jul/2023:15:13:04 +0000] "PUT /form HTTP/1.1" 500 70 "-" "axios/0.27.2"
+[2023-07-30 08:43:17.497 PM] info: 	http only started server on port 9980
+[2023-07-30 08:43:20.768 PM] info: 	http only started server on port 9980
