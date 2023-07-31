@@ -2,7 +2,7 @@
 
 *Project Description*
 
-The Widget API aims to create a robust and scalable Node.js application for handling form data submissions and saving them to a Firebase Realtime Database. The application provides RESTful APIs for interacting with forms, allowing users to submit form data and retrieve previously submitted data. The project is built with best practices in mind, incorporating logging, error handling, and validation to ensure a smooth and secure user experience.
+The Widget API is an application for handling form data submissions and saving them to a Firebase Realtime Database. The application provides RESTful APIs for interacting with forms, allowing users to submit form data and retrieve previously submitted data.
 
 *Features*
 
